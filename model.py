@@ -39,6 +39,3 @@ model.fit(X_train, y_train)
 Y_pred = model.predict(X_test)
 
 pickle.dump(model, open('model.pkl','wb'))
-
-model2 = pickle.load(open('model.pkl', 'rb'))
-print(model2.predict([[3,1,19,0,0,7.8958,1]]))
