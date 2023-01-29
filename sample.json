@@ -1,0 +1,9 @@
+{
+    "Pclass":2, //Int value (1,2,3)
+    "Sex":0, // Int value 0=Female 1=Male
+    "Age":25, // Int value
+    "SibSp":0, // Int value
+    "Parch":1, // Int value
+    "Fare":26, // Float value
+    "Embarked":1 // Int value 0=Queenstown 1=Southampton 2=Cherbourg
+}
