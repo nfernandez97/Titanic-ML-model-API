@@ -1,2 +1,2 @@
-FROM python:3.11
-RUN 
+FROM tiangolo/uvicorn-gunicorn-fastapi:python3.11
+COPY ./app /app  
