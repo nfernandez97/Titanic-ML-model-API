@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    command: uvicorn mlapi:app --host 0.0.0.0
+    container_name: 'mlapicontainer'
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./app:/app
